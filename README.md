@@ -5,9 +5,11 @@
 > Built with LangChain, Llama 3, ChromaDB, FastAPI, and Terraform.
 
 ## Architecture
+
 [Architecture diagram will go here]
 
 ## Tech Stack
+
 - **LLM**: Llama 3 via Groq API (or Ollama locally)
 - **RAG Pipeline**: LangChain + ChromaDB
 - **Backend**: FastAPI (Python)
@@ -20,6 +22,7 @@
 ```bash
 git clone https://github.com/YOUR_USERNAME/insurebot
 cd insurebot
-cp .env.example .env   # Add your API keys
+cp .env.example .env  # Add your API keys
 pip install -r backend/requirements.txt
 uvicorn backend.app.main:app --reload
+```
