@@ -12,7 +12,7 @@
 
 ## Demo
 
-![InsureBot Demo](docs/Image 2026-03-05 at 19.10.png)
+![InsureBot Demo](docs/screenshot.png)
 
 ## Tech Stack
 
