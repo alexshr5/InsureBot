@@ -1,3 +1,5 @@
+
+
 # InsureBot 🤖
 
 > An AI-powered insurance assistant that answers policy questions,
@@ -7,6 +9,10 @@
 ## Architecture
 
 [Architecture diagram will go here]
+
+## Demo
+
+![InsureBot Demo](docs/Image 2026-03-05 at 19.10.png)
 
 ## Tech Stack
 
