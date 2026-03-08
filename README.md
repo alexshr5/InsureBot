@@ -15,7 +15,7 @@
 
 ## Architecture
 
-[Architecture diagram will go here]
+![Architecture](docs/architecture.png)
 
 ## Demo
 
