@@ -2,6 +2,9 @@
 
 # InsureBot 🤖
 
+## Live Demo
+🚀 API: https://insurebot-api.onrender.com/health
+
 > An AI-powered insurance assistant that answers policy questions,
 > guides users through claims, and provides instant quotes.
 > Built with LangChain, Llama 3, ChromaDB, FastAPI, and Terraform.
