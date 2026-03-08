@@ -1,4 +1,8 @@
-
+![CI](https://github.com/alexshr5/InsureBot/actions/workflows/deploy.yml/badge.svg)
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![Terraform](https://img.shields.io/badge/terraform-1.14-purple)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-live-brightgreen)
 
 # InsureBot 🤖
 
