@@ -208,3 +208,9 @@ __marimo__/
 terraform.tfvars
 *.tfvars
 infra/terraform.tfvars
+infra/terraform.tfstate
+infra/terraform.tfstate.backup
+infra/.terraform/
+infra/.terraform.lock.hcl
+chroma_db/
+.DS_Store
