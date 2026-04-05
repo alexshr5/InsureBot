@@ -74,6 +74,8 @@ Answer:""")
         print("RAG pipeline ready!")
     except Exception as e:
         print(f"RAG pipeline failed to load: {e}")
+        print("Running in limited mode - RAG pipeline unavailable")
+        print("Running in limited mode - RAG pipeline unavailable")
 
 @app.get('/health')
 async def health():
@@ -82,7 +84,11 @@ async def health():
 @app.post('/chat', response_model=ChatResponse)
 async def chat(request: ChatRequest):
     if not rag_chain:
-        raise HTTPException(status_code=503, detail='RAG pipeline not ready')
+        return ChatResponse(
+            answer="Hi! I'm InsureBot 🤖 The full AI-powered demo requires local setup with Ollama and ChromaDB. Visit the GitHub repo for setup instructions: github.com/alexshr5/InsureBot",
+            sources=[],
+            session_id=request.session_id or str(uuid.uuid4())
+        )
     
     docs = retriever.invoke(request.message)
     sources = list(set([doc.metadata.get('source', '') for doc in docs]))
